@@ -3,7 +3,7 @@ export const site = {
   nome: "Marfim",
   assinatura: "O consultório inteiro numa tela.",
   descricao: "Gestão para consultórios odontológicos: agenda, prontuário, orçamentos, pagamentos e um WhatsApp que marca e confirma sozinho.",
-  url: "https://marfim-odonto.vercel.app",
+  url: "https://marfim-odonto-zeta.vercel.app",
   painel: "https://dr-mateus-peixoto.vercel.app/entrar",
   whatsapp: "", // só dígitos com DDI, ex.: 5513999999999
   email: "gabrieltomaz442@gmail.com",
