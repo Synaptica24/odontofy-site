@@ -4,7 +4,7 @@ export const site = {
   assinatura: "O consultório inteiro numa tela.",
   descricao: "Gestão para consultórios odontológicos: agenda, prontuário, orçamentos, pagamentos e um WhatsApp que marca e confirma sozinho.",
   url: "https://odontofy.vercel.app",
-  painel: "https://dr-mateus-peixoto.vercel.app/entrar",
+  painel: "https://odontofy-painel.vercel.app/entrar",
   whatsapp: "", // só dígitos com DDI, ex.: 5513999999999
   email: "gabrieltomaz442@gmail.com",
 };
