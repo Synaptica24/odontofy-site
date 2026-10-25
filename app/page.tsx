@@ -2,7 +2,7 @@ import Link from "next/link";
 import {
   ArrowRight, CalendarDays, ClipboardList, FileSignature, MessageCircle, Stethoscope, Wallet, ArrowLeftRight, ShieldCheck, Sparkles, Check,
 } from "lucide-react";
-import { IncisivoLogo } from "@/components/logo";
+import { OdontoFyLogo } from "@/components/logo";
 import { linkContato, site } from "@/config/site";
 
 const RECURSOS = [
@@ -15,7 +15,7 @@ const RECURSOS = [
 ];
 
 const PASSOS = [
-  { n: "01", titulo: "A gente importa o que você já tem", texto: "Cadastro, histórico e agenda do sistema antigo entram no Incisivo antes do primeiro dia de uso." },
+  { n: "01", titulo: "A gente importa o que você já tem", texto: "Cadastro, histórico e agenda do sistema antigo entram no OdontoFy antes do primeiro dia de uso." },
   { n: "02", titulo: "Você abre e reconhece tudo", texto: "A tela segue a lógica que sua equipe já conhece: lista de pacientes, ficha com abas, agenda da semana." },
   { n: "03", titulo: "O WhatsApp começa a trabalhar", texto: "Confirmações, lembretes e primeiro atendimento passam a acontecer sozinhos, com você no controle." },
 ];
@@ -25,7 +25,7 @@ export default function Home() {
     <div className="min-h-dvh">
       <header className="glass sticky top-0 z-20 border-b border-[var(--glass-line)]">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3.5 sm:px-8">
-          <Link href="/" aria-label="Incisivo, início"><IncisivoLogo /></Link>
+          <Link href="/" aria-label="OdontoFy, início"><OdontoFyLogo /></Link>
           <nav className="flex items-center gap-2">
             <a href="#recursos" className="hidden text-[14px] text-ink-2 hover:text-ink sm:inline-flex sm:px-3">Recursos</a>
             <a href="#como-funciona" className="hidden text-[14px] text-ink-2 hover:text-ink sm:inline-flex sm:px-3">Como funciona</a>
@@ -43,7 +43,7 @@ export default function Home() {
               Agenda, prontuário, orçamentos e pagamentos no mesmo lugar, e um WhatsApp que marca e confirma consulta sozinho. Feito para o dentista que atende e administra ao mesmo tempo.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <a href={linkContato("Olá! Quero conhecer o Incisivo para o meu consultório.")} className="btn btn-primary btn-lg press">
+              <a href={linkContato("Olá! Quero conhecer o OdontoFy para o meu consultório.")} className="btn btn-primary btn-lg press">
                 Pedir uma demonstração <ArrowRight className="size-4" />
               </a>
               <a href="#recursos" className="btn btn-secondary btn-lg press">Ver o que faz</a>
@@ -143,9 +143,9 @@ export default function Home() {
 
         <section className="mx-auto max-w-6xl px-5 pb-24 sm:px-8">
           <div className="rounded-[24px] bg-ink px-6 py-12 text-center text-bg sm:px-12">
-            <h2 className="title-1 mx-auto max-w-xl">Quer ver o Incisivo com os dados do seu consultório?</h2>
+            <h2 className="title-1 mx-auto max-w-xl">Quer ver o OdontoFy com os dados do seu consultório?</h2>
             <p className="mx-auto mt-3 max-w-lg text-[16px] leading-relaxed opacity-75">A demonstração usa a sua agenda e os seus pacientes de verdade, importados antes da conversa.</p>
-            <a href={linkContato("Olá! Quero uma demonstração do Incisivo com os dados do meu consultório.")} className="btn btn-lg press mt-7 inline-flex bg-bg text-ink hover:opacity-90">
+            <a href={linkContato("Olá! Quero uma demonstração do OdontoFy com os dados do meu consultório.")} className="btn btn-lg press mt-7 inline-flex bg-bg text-ink hover:opacity-90">
               Pedir uma demonstração <ArrowRight className="size-4" />
             </a>
           </div>
@@ -154,7 +154,7 @@ export default function Home() {
 
       <footer className="border-t border-line">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-5 py-6 text-[13px] text-ink-3 sm:px-8">
-          <span className="inline-flex items-center gap-2"><IncisivoLogo size={18} /> <span>© {new Date().getFullYear()}</span></span>
+          <span className="inline-flex items-center gap-2"><OdontoFyLogo size={18} /> <span>© {new Date().getFullYear()}</span></span>
           <span>Feito no Brasil · dados no Brasil</span>
         </div>
       </footer>

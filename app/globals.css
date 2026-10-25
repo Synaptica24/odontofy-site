@@ -2,7 +2,7 @@
 
 @custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
 
-/* Incisivo: base neutra levemente quente, um único acento azul-petróleo. Mesmo padrão do painel e do Brio. */
+/* OdontoFy: base neutra levemente quente, um único acento azul-petróleo. Mesmo padrão do painel e do Brio. */
 :root {
   color-scheme: light;
   --bg: #f6f4ef;

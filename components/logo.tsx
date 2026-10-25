@@ -1,6 +1,6 @@
-/* Marca do Incisivo: quadrado de cantos suaves em tinta com a silhueta de um dente incisivo (coroa larga, raiz única)
+/* Marca do OdontoFy: quadrado de cantos suaves em tinta com a silhueta de um dente (coroa larga, raiz única)
    e um ponto azul-petróleo no canto, o mesmo acento do painel. Nada copiado de outra marca. */
-export function IncisivoMark({ size = 28, className }: { size?: number; className?: string }) {
+export function OdontoFyMark({ size = 28, className }: { size?: number; className?: string }) {
   return (
     <svg viewBox="0 0 64 64" width={size} height={size} className={className} aria-hidden>
       <rect width="64" height="64" rx="15" fill="var(--ink)" />
@@ -13,12 +13,12 @@ export function IncisivoMark({ size = 28, className }: { size?: number; classNam
   );
 }
 
-export function IncisivoLogo({ size = 26, className = "" }: { size?: number; className?: string }) {
+export function OdontoFyLogo({ size = 26, className = "" }: { size?: number; className?: string }) {
   return (
     <span className={`inline-flex items-center gap-2 ${className}`}>
-      <IncisivoMark size={size} />
+      <OdontoFyMark size={size} />
       <span className="font-bold tracking-[-0.04em] text-ink" style={{ fontSize: size * 0.78 }}>
-        inc<span className="relative">ı<span className="absolute left-1/2 top-[0.1em] size-[0.19em] -translate-x-1/2 rounded-full bg-accent" /></span>sivo
+        Odonto<span className="text-accent">Fy</span>
       </span>
     </span>
   );
