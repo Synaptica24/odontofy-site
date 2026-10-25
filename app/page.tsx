@@ -3,6 +3,7 @@ import {
   ArrowRight, CalendarDays, ClipboardList, FileSignature, MessageCircle, Stethoscope, Wallet, ArrowLeftRight, ShieldCheck, Sparkles, Check,
 } from "lucide-react";
 import { OdontoFyLogo } from "@/components/logo";
+import { HeroMock } from "@/components/hero-mock";
 import { linkContato, site } from "@/config/site";
 
 const RECURSOS = [
@@ -55,35 +56,7 @@ export default function Home() {
             </ul>
           </div>
 
-          <div className="mock enter" aria-hidden>
-            <div className="mock-bar">
-              <span className="mock-dot" /><span className="mock-dot" /><span className="mock-dot" />
-              <span className="ml-3 text-[12px] font-medium text-ink-3">Hoje · quinta, 5 de março</span>
-              <span className="mock-pill ml-auto"><Stethoscope className="size-3.5 text-[#7fb6d4]" /> Ana <b>em 12 min</b></span>
-            </div>
-            <div className="grid gap-3 p-4 sm:grid-cols-[1fr_1.4fr]">
-              <div className="grid gap-3">
-                <div className="mock-card">
-                  <p className="eyebrow">Novos na semana</p>
-                  <p className="tnum mt-1.5 text-[26px] font-semibold tracking-tight">3 <span className="text-ink-3">/ 8</span></p>
-                </div>
-                <div className="mock-card">
-                  <p className="eyebrow">Pede atenção</p>
-                  <p className="mt-1.5 text-[13px] font-medium">Carlos pediu encaixe hoje</p>
-                  <p className="text-[12px] text-ink-3">A IA segurou e chamou você</p>
-                </div>
-              </div>
-              <div className="mock-card">
-                <p className="eyebrow">Agenda de hoje</p>
-                <div className="mt-2">
-                  <div className="mock-row"><span className="marca marca--ok" /><span><b className="tnum">08:30</b> · Mariana · Limpeza</span><span className="text-ink-3">confirmada</span></div>
-                  <div className="mock-row"><span className="marca" /><span><b className="tnum">09:30</b> · Ana · Avaliação</span><span className="text-ink-3">a IA marcou</span></div>
-                  <div className="mock-row"><span className="marca marca--ok" /><span><b className="tnum">11:00</b> · Pedro · Canal</span><span className="text-ink-3">confirmada</span></div>
-                  <div className="mock-row"><span className="marca" /><span><b className="tnum">14:00</b> · Júlia · Clareamento</span><span className="text-ink-3">lembrete enviado</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <HeroMock />
         </section>
 
         <section id="recursos" className="mx-auto max-w-6xl px-5 pb-20 sm:px-8">
